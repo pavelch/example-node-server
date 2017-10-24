@@ -6,4 +6,4 @@ WORKDIR /home/nodejs/app
 COPY . /home/nodejs/app
 RUN npm install
 
-CMD ["npm", "start"]
+CMD ["/bin/bash"]
