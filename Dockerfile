@@ -1,4 +1,4 @@
-FROM nodesource/jesse:argon
+FROM nodesource/trusty 
 
 RUN mkdir -p /home/nodejs/app
 WORKDIR /home/nodejs/app
